@@ -6,7 +6,7 @@ namespace Lamhotsimamora\Watermark;
 class WatermarkBuilder 
 {
     private $watermarkImage;
-    private $imageage;
+    private $image;
 
     public function loadWatermark($value){
         $this->watermarkImage = $value;
